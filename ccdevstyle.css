@@ -1,0 +1,485 @@
+
+body {
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color:#2b2b29;
+	color:white;
+	overflow: hidden;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+	color:#0780e3;
+}
+
+a:active {
+	color:#0780e3;
+}
+
+ ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  
+}
+ li {
+ display: inline-block;
+  width: 20%;
+  padding-left: 0%;
+  padding-right: 0%;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+ul li ul li {
+  display: block;
+}
+
+a {
+ color:white;
+ -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+  transition:.5s;
+}
+
+ul {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+}
+
+
+ .github{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	right:720px; 
+	top:-550px;
+}
+ 
+ .twitter{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	right:680px; 
+	top:-550px;
+}
+
+
+.github:hover {
+	background: white;
+	color:#0780e3;
+}
+.twitter:hover {
+	background: white;
+	color:#0780e3;
+}
+ #rmdf{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+}
+#rmdf:hover {
+	background: white;
+	color:#0780e3;
+}
+
+hr.solid {
+  border-top: 1px solid #8a8a81;
+}
+
+#intro {
+    position:relative;
+	right:250px; 
+	top:280px;
+}
+
+#laptop {
+    position:relative;
+	left:490px; 
+	top:-190px;
+}
+
+#navbar{
+	overflow:auto;
+	width: 100%;
+	z-index: 999;
+	background-color:#2b2b29;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top:10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+#rlogo {
+  border-radius: 10px;
+  position:relative;
+ top:10px;
+}
+
+#pro1 {
+   border-radius: 25px;
+   border-style: solid;
+   height:390px;
+   width:400px;
+   position:relative;
+   top:-270px;
+   left:-600px
+}
+
+#pro1:hover{
+	background-color:#42423e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#pro2 {
+   border-radius: 25px;
+   border-style: solid;
+   height:390px;
+   width:400px;
+   position:relative;
+   top:-665px;
+   left:00px
+}
+
+#pro2:hover{
+	background-color:#42423e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+
+#pro3 {
+   border-radius: 25px;
+   border-style: solid;
+   height:390px;
+   width:400px;
+   position:relative;
+   top:-1060px;
+   left:600px;
+}
+
+#pro3:hover{
+	background-color:#42423e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+#iv2{
+   position:relative;
+   top:-375px;
+   border-top: 1px solid #8a8a81;
+}
+
+#bb {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+}
+#bb:hover {
+	background: white;
+	color:#0780e3;
+}
+
+#sf {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	top:-40px;
+}
+
+#sf:hover {
+	background: white;
+	color:#0780e3;
+}
+
+
+#sfcontent {
+	position:relative;
+	top:-40px;
+}
+
+#pro4 {
+   border-radius: 25px;
+   border-style: solid;
+   height:390px;
+   width:400px;
+   position:relative;
+   top:-1020px;
+   left:-600px;
+}
+
+#pro4:hover{
+	background-color:#42423e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#abs {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	top:-40px;
+}
+
+#abs:hover {
+	background: white;
+	color:#0780e3;
+}
+
+#pro5 {
+   border-radius: 25px;
+   border-style: solid;
+   height:390px;
+   width:400px;
+   position:relative;
+   top:-1415px;
+   left:0px;
+}
+
+#pro5:hover{
+	background-color:#42423e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#cc {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	top:-40px;
+}
+
+#cc:hover {
+	background: white;
+	color:#0780e3;
+}
+
+#pro6 {
+   border-radius: 25px;
+   border-style: solid;
+   height:390px;
+   width:400px;
+   position:relative;
+   top:-1810px;
+   left:600px;
+}
+
+#pro6:hover{
+	background-color:#42423e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#cs {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	top:-40px;
+}
+
+#cs:hover {
+	background: white;
+	color:#0780e3;
+}
+
+#iv3{
+   position:relative;
+   top:-1705px;
+   border-top: 1px solid #8a8a81;
+}
+
+#contactme {
+	position:relative;
+	top:-1640px;
+}
+
+#bottomfooter {
+	position:relative;
+	top:-1205px;
+	-webkit-box-shadow: 0px 0px 0px 2px #42423e;  
+	-moz-box-shadow: 0px 0px 0px 2px #42423e;  
+	box-shadow:  0px 0px 0px 2px #42423e; 
+	width:1930px;
+	left:-10px;
+}
+
+
+
+#websitedev {
+	position:relative;
+	left:130px;
+	top:25px;
+}
+
+#privp {
+	position:relative;
+	top:-25px;
+	left:890px;
+}
+
+#allmyprojectsamo {
+	position:relative;
+	top:-75px;
+	left:1220px;
+	
+}
+
+#send {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: #0780e3;
+	position:relative;
+	top:60px;
+	right:170px;
+}
+
+#send:hover {
+	background: white;
+	color:#0780e3;
+}
+ 
+#codepic{
+	position:relative;
+	top:-420px;
+	right:-470px;
+}
+
+#np {
+	position:relative;
+	top:-0px;
+	right:370px;
+
+}
+
+#titles {
+	position:relative;
+	top:-40px;
+}
+
+#bottomfooter {
+	position:relative;
+	top:-2100px;
+}
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+ 
+#codepic{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
